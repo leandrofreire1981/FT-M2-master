@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="box" id="green">1</div>
+            <div class="box" id="blue">2</div>
+            <div class="box" id="red">3</div>
+        </div>
+
+        <ol> Henry Staff
+            <li class="juaniClass">Juani</li>
+            <li>Martin</li>
+            <li>Mati</li>
+        </ol>
+
+        <div class="dada">
+            
+        </div>
+
+      <!--   <script>
+            alert('Hola Mundo!')
+            
+        </script> -->
+        <!-- <script type="text/javascript" src="./index.js"></script> -->
+       <!--  <script>
+            var blue = document.getElementById('red')
+            console.log(blue)
+        </script> -->
+
+        <!-- <script>
+            var boxes = document.getElementsByClassName('box')
+            for (let i = 0; i < boxes.length; i++) {
+                boxes[i].innerText = boxes[i].innerText + '!'
+            }
+        </script> -->
+
+       <!--  <script>
+            var container = document.querySelector('.juaniClass')
+            container.style.backgroundColor = 'tomato' 
+        </script> -->
+
+        <script>
+          /*  let boxes = document.getElementsByClassName('box')
+            for (let i = 0; i < boxes.length; i++) {
+                boxes[i].addEventListener('click', function(e){
+                 console.log(e)
+                 e.target.innerText = Number(e.target.innerText) + 1
+                 if(e.target.style.backgroundColor === 'red'){
+                    e.target.style.backgroundColor = 'gray'
+                 } else {
+                    e.target.style.backgroundColor = 'red' 
+                 }
+                }) 
+            } */
+        </script>
+
+       <!--  <script>
+            var container = document.querySelector('#green')
+            document.addEventListener('mousemove', function(e){
+                container.style.position = 'fixed'
+                container.style.top = e.clientY + 'px'
+                container.style.left = e.clientX + 'px'
+            })
+        </script> -->
+
+        <script>
+            const newDiv = document.createElement("div");
+            const newSpan = document.createElement("span");
+            newDiv.innerText = 'Nuevo div!!!!!!!'
+            newDiv.appendChild(newSpan)
+            document.body.appendChild(newDiv)
+            console.log(newDiv)
+        </script>
+    </body>
+</html>
