@@ -20,6 +20,7 @@ document.querySelector('#createdBy').innerHTML = document.querySelector('#create
 
 function ToDo (description) {
   // Tu código acá:
+  
   this.description=description
   this.complete=false
 }
